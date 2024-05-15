@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+// Core and helpers
+@import 'utilities/variables';
+@import 'utilities/mixins';
+
+// Base stuff
+@import 'base/base';
+@import 'base/fonts';
+@import 'base/typography';
+
+// Layout related sections
+@import 'layout/navbar';
+@import 'layout/footer';
+
+// Components
+@import 'components/icons';
+@import 'components/buttons';
+@import 'components/slider';
+
+
+// Page-specific styles
+@import 'pages/landing';
+@import 'pages/user-profile';
+
+
+// Overriding vendors styles (or styles from third-party packages)
+@import 'vendors-extensions/ant';
+@import 'vendors-extensions/bootstrap';
+
+// Other styles
+@import 'index';

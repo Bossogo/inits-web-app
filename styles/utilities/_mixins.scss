@@ -1,0 +1,54 @@
+$breakpoint-x-small: 576px;
+$breakpoint-small: 767px;
+$breakpoint-medium: 991px;
+$breakpoint-large: 1199px;
+$breakpoint-x-large: 1399px;
+
+// Mixins for media queries.
+
+@mixin responsive($size) {
+  @if $size=='x-small' {
+    @media screen and (max-width: $breakpoint-x-small) {
+      @content;
+    }
+  }
+  @if $size=='small' {
+    @media screen and (max-width: $breakpoint-small) {
+      @content;
+    }
+  }
+  @else if $size=='medium' {
+    @media screen and (min-width: $breakpoint-small) and (max-width: $breakpoint-large) {
+      @content;
+    }
+  }
+  @else if $size=='large' {
+    @media screen and (min-width: $breakpoint-large) {
+      @content;
+    }
+  }
+  @else if $size=='x-large' {
+    @media screen and (min-width: $breakpoint-x-large) {
+      @content;
+    }
+  }
+}
+
+
+// Mixins for simplifying CTAs interaction states.
+@mixin on-state($self: false) {
+  @if $self {
+    &,
+    &:hover,
+    &:active,
+    &:focus {
+      @content;
+    }
+  } @else {
+    &:hover,
+    &:active,
+    &:focus {
+      @content;
+    }
+  }
+}

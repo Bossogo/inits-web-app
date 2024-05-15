@@ -1,0 +1,23 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+  @include on-state {
+    color: currentColor;
+    text-decoration: none;
+  }
+}

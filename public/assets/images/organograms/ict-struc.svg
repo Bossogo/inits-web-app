@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1255px" height="1187px" viewBox="0 0 1255 1187" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ict-struc</title>
+    <g id="Website-Prototype" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="department" transform="translate(-250, -4139)">
+            <g id="ict-struc" transform="translate(250, 4139)">
+                <g id="Group-6" transform="translate(515, 0)">
+                    <rect id="Rectangle" stroke="#303030" stroke-width="2" fill="#FFFFFF" x="1" y="1" width="298" height="118" rx="20"></rect>
+                    <text id="Director" font-family="Poppins-SemiBold, Poppins" font-size="16" font-weight="500" fill="#303030">
+                        <tspan x="110.488" y="66">DIRECTOR</tspan>
+                    </text>
+                </g>
+                <rect id="Rectangle-Copy-2" stroke="#303030" stroke-width="2" fill="#FFFFFF" x="516" y="204" width="298" height="118" rx="20"></rect>
+                <text id="Deputy-Director-(IT/" font-family="Poppins-SemiBold, Poppins" font-size="16" font-weight="500" fill="#303030">
+                    <tspan x="593.448" y="257">DEPUTY DIRECTOR</tspan>
+                    <tspan x="638.552" y="280">(IT/ID)</tspan>
+                </text>
+                <path id="Line-Copy-8" d="M666.842444,321.498821 L666.843625,322.49882 L666.983,440.998 L672.983473,440.991748 L666,455 L658.983482,441.008271 L664.983,441.001 L664.843626,322.50118 L664.842446,321.501181 L666.842444,321.498821 Z" fill="#303030" fill-rule="nonzero"></path>
+                <g id="Group-5" transform="translate(515, 455)">
+                    <rect id="Rectangle-Copy-19" stroke="#303030" stroke-width="2" fill="#FFFFFF" x="1" y="1" width="298" height="118" rx="20"></rect>
+                    <text id="AD-(ENTERPRISE-ARCHI" font-family="Poppins-SemiBold, Poppins" font-size="16" font-weight="500" fill="#303030">
+                        <tspan x="138.536" y="54">AD</tspan>
+                        <tspan x="35.304" y="77">(ENTERPRISE ARCHITECTURE)</tspan>
+                    </text>
+                </g>
+                <g id="Group-5-Copy" transform="translate(955, 456)">
+                    <rect id="Rectangle-Copy-19" stroke="#303030" stroke-width="2" fill="#FFFFFF" x="1" y="1" width="298" height="118" rx="20"></rect>
+                    <text id="AD-(INDUSTRIAL-DEVEL" font-family="Poppins-SemiBold, Poppins" font-size="16" font-weight="500" fill="#303030">
+                        <tspan x="138.536" y="54">AD</tspan>
+                        <tspan x="37.984" y="77">(INDUSTRIAL DEVELOPMENT)</tspan>
+                    </text>
+                </g>
+                <rect id="Rectangle-Copy-15" stroke="#303030" stroke-width="2" fill="#FFFFFF" x="76" y="456" width="298" height="118" rx="20"></rect>
+                <text id="AD-(CTO)" font-family="Poppins-SemiBold, Poppins" font-size="16" font-weight="500" fill="#303030">
+                    <tspan x="213.536" y="509">AD</tspan>
+                    <tspan x="200.2" y="532">(CTO)</tspan>
+                </text>
+                <path id="Line" d="M665.993921,118.993958 L665.999982,119.99394 L666.415,188.493 L672.415025,188.457834 L665.5,202.5 L658.415282,188.542681 L664.415,188.506 L664.000018,120.00606 L663.993958,119.006079 L665.993921,118.993958 Z" fill="#303030" fill-rule="nonzero"></path>
+                <path id="Line-Copy" d="M226.5,374 L226.5,441 L232.5,441 L225.5,455 L218.5,441 L224.5,441 L224.5,374 L226.5,374 Z" fill="#303030" fill-rule="nonzero"></path>
+                <rect id="Rectangle-Copy-45" stroke="#303030" stroke-width="2" fill="#FFFFFF" x="1" y="668" width="198" height="118" rx="20"></rect>
+                <rect id="Rectangle-Copy-44" stroke="#303030" stroke-width="2" fill="#FFFFFF" x="251" y="668" width="198" height="118" rx="20"></rect>
+                <text id="CHIEF-CTO" font-family="Poppins-SemiBold, Poppins" font-size="16" font-weight="500" fill="#303030">
+                    <tspan x="58.456" y="733">CHIEF CTO</tspan>
+                </text>
+                <rect id="Rectangle" fill="#303030" x="100" y="615" width="250" height="2"></rect>
+                <text id="CHIEF-CTO" font-family="Poppins-SemiBold, Poppins" font-size="16" font-weight="500" fill="#303030">
+                    <tspan x="308.456" y="733">CHIEF CTO</tspan>
+                </text>
+                <path id="Line-Copy-7" d="M351.5,616 L351.5,653.777 L356.664885,653.777778 C357.090628,653.777778 357.441961,654.096362 357.493493,654.508138 L357.5,654.612893 C357.5,654.742541 357.469815,654.870408 357.411835,654.986368 L351.247041,667.315954 C351.040777,667.728483 350.539146,667.895694 350.126617,667.689429 C349.964999,667.608621 349.83395,667.477572 349.753142,667.315954 L343.588348,654.986368 C343.382084,654.573839 343.549294,654.072208 343.961823,653.865943 C344.077784,653.807963 344.205651,653.777778 344.335298,653.777778 L349.5,653.777 L349.5,616 L351.5,616 Z" fill="#303030" fill-rule="nonzero"></path>
+                <path id="Line-Copy-9" d="M101.5,616 L101.5,653.777 L106.664885,653.777778 C107.090628,653.777778 107.441961,654.096362 107.493493,654.508138 L107.5,654.612893 C107.5,654.742541 107.469815,654.870408 107.411835,654.986368 L101.247041,667.315954 C101.040777,667.728483 100.539146,667.895694 100.126617,667.689429 C99.9649988,667.608621 99.8339504,667.477572 99.7531416,667.315954 L93.5883484,654.986368 C93.3820839,654.573839 93.5492943,654.072208 93.9618234,653.865943 C94.0777837,653.807963 94.2056507,653.777778 94.3352983,653.777778 L99.5,653.777 L99.5,616 L101.5,616 Z" fill="#303030" fill-rule="nonzero"></path>
+                <rect id="Rectangle-Copy-47" stroke="#303030" stroke-width="2" fill="#FFFFFF" x="1" y="868" width="198" height="118" rx="20"></rect>
+                <rect id="Rectangle-Copy-46" stroke="#303030" stroke-width="2" fill="#FFFFFF" x="251" y="868" width="198" height="118" rx="20"></rect>
+                <text id="ASSISTANT-CHIEF-CTO" font-family="Poppins-SemiBold, Poppins" font-size="16" font-weight="500" fill="#303030">
+                    <tspan x="32.088" y="921">ASSISTANT CHIEF</tspan>
+                    <tspan x="82.96" y="944">CTO</tspan>
+                </text>
+                <text id="ASSISTANT-CHIEF-CTO" font-family="Poppins-SemiBold, Poppins" font-size="16" font-weight="500" fill="#303030">
+                    <tspan x="282.088" y="921">ASSISTANT CHIEF</tspan>
+                    <tspan x="332.96" y="944">CTO</tspan>
+                </text>
+                <path id="Line-Copy-11" d="M351.5,786 L351.5,853.777 L356.664885,853.777778 C357.090628,853.777778 357.441961,854.096362 357.493493,854.508138 L357.5,854.612893 C357.5,854.742541 357.469815,854.870408 357.411835,854.986368 L351.247041,867.315954 C351.040777,867.728483 350.539146,867.895694 350.126617,867.689429 C349.964999,867.608621 349.83395,867.477572 349.753142,867.315954 L343.588348,854.986368 C343.382084,854.573839 343.549294,854.072208 343.961823,853.865943 C344.077784,853.807963 344.205651,853.777778 344.335298,853.777778 L349.5,853.777 L349.5,786 L351.5,786 Z" fill="#303030" fill-rule="nonzero"></path>
+                <path id="Line-Copy-10" d="M101.5,786 L101.5,853.777 L106.664885,853.777778 C107.090628,853.777778 107.441961,854.096362 107.493493,854.508138 L107.5,854.612893 C107.5,854.742541 107.469815,854.870408 107.411835,854.986368 L101.247041,867.315954 C101.040777,867.728483 100.539146,867.895694 100.126617,867.689429 C99.9649988,867.608621 99.8339504,867.477572 99.7531416,867.315954 L93.5883484,854.986368 C93.3820839,854.573839 93.5492943,854.072208 93.9618234,853.865943 C94.0777837,853.807963 94.2056507,853.777778 94.3352983,853.777778 L99.5,853.777 L99.5,786 L101.5,786 Z" fill="#303030" fill-rule="nonzero"></path>
+                <rect id="Rectangle-Copy-49" stroke="#303030" stroke-width="2" fill="#FFFFFF" x="1" y="1068" width="198" height="118" rx="20"></rect>
+                <rect id="Rectangle-Copy-48" stroke="#303030" stroke-width="2" fill="#FFFFFF" x="251" y="1068" width="198" height="118" rx="20"></rect>
+                <text id="COMPUTER-ENGINEER-II" font-family="Poppins-SemiBold, Poppins" font-size="16" font-weight="500" fill="#303030">
+                    <tspan x="16.016" y="1121">COMPUTER ENGINEER</tspan>
+                    <tspan x="95.552" y="1144">II</tspan>
+                </text>
+                <text id="COMPUTER-ANALYST-II" font-family="Poppins-SemiBold, Poppins" font-size="16" font-weight="500" fill="#303030">
+                    <tspan x="268.456" y="1121">COMPUTER ANALYST</tspan>
+                    <tspan x="345.552" y="1144">II</tspan>
+                </text>
+                <path id="Line-Copy-13" d="M351.5,986 L351.5,1053.777 L356.664885,1053.77778 C357.090628,1053.77778 357.441961,1054.09636 357.493493,1054.50814 L357.5,1054.61289 C357.5,1054.74254 357.469815,1054.87041 357.411835,1054.98637 L351.247041,1067.31595 C351.040777,1067.72848 350.539146,1067.89569 350.126617,1067.68943 C349.964999,1067.60862 349.83395,1067.47757 349.753142,1067.31595 L343.588348,1054.98637 C343.382084,1054.57384 343.549294,1054.07221 343.961823,1053.86594 C344.077784,1053.80796 344.205651,1053.77778 344.335298,1053.77778 L349.5,1053.777 L349.5,986 L351.5,986 Z" fill="#303030" fill-rule="nonzero"></path>
+                <rect id="Rectangle-Copy-52" stroke="#303030" stroke-width="2" fill="#FFFFFF" x="566" y="668" width="198" height="118" rx="20"></rect>
+                <text id="CHIEF-EA-OFFICER" font-family="Poppins-SemiBold, Poppins" font-size="16" font-weight="500" fill="#303030">
+                    <tspan x="630.512" y="721">CHIEF EA </tspan>
+                    <tspan x="632.488" y="744">OFFICER </tspan>
+                </text>
+                <path id="Line-Copy-16" d="M666.5,574 L666.5,653.777 L671.664885,653.777778 C672.090628,653.777778 672.441961,654.096362 672.493493,654.508138 L672.5,654.612893 C672.5,654.742541 672.469815,654.870408 672.411835,654.986368 L666.247041,667.315954 C666.040777,667.728483 665.539146,667.895694 665.126617,667.689429 C664.964999,667.608621 664.83395,667.477572 664.753142,667.315954 L658.588348,654.986368 C658.382084,654.573839 658.549294,654.072208 658.961823,653.865943 C659.077784,653.807963 659.205651,653.777778 659.335298,653.777778 L664.5,653.777 L664.5,574 L666.5,574 Z" fill="#303030" fill-rule="nonzero"></path>
+                <rect id="Rectangle-Copy-51" stroke="#303030" stroke-width="2" fill="#FFFFFF" x="566" y="868" width="198" height="118" rx="20"></rect>
+                <text id="ASSISTANT-CHIEF-EA-O" font-family="Poppins-SemiBold, Poppins" font-size="16" font-weight="500" fill="#303030">
+                    <tspan x="597.088" y="921">ASSISTANT CHIEF</tspan>
+                    <tspan x="620.6" y="944">EA OFFICER</tspan>
+                </text>
+                <path id="Line-Copy-15" d="M666.5,786 L666.5,853.777 L671.664885,853.777778 C672.090628,853.777778 672.441961,854.096362 672.493493,854.508138 L672.5,854.612893 C672.5,854.742541 672.469815,854.870408 672.411835,854.986368 L666.247041,867.315954 C666.040777,867.728483 665.539146,867.895694 665.126617,867.689429 C664.964999,867.608621 664.83395,867.477572 664.753142,867.315954 L658.588348,854.986368 C658.382084,854.573839 658.549294,854.072208 658.961823,853.865943 C659.077784,853.807963 659.205651,853.777778 659.335298,853.777778 L664.5,853.777 L664.5,786 L666.5,786 Z" fill="#303030" fill-rule="nonzero"></path>
+                <rect id="Rectangle-Copy-50" stroke="#303030" stroke-width="2" fill="#FFFFFF" x="566" y="1068" width="198" height="118" rx="20"></rect>
+                <text id="COMPUTER-ENGINEER-II" font-family="Poppins-SemiBold, Poppins" font-size="16" font-weight="500" fill="#303030">
+                    <tspan x="581.016" y="1121">COMPUTER ENGINEER</tspan>
+                    <tspan x="660.552" y="1144">II</tspan>
+                </text>
+                <path id="Line-Copy-14" d="M666.5,986 L666.5,1053.777 L671.664885,1053.77778 C672.090628,1053.77778 672.441961,1054.09636 672.493493,1054.50814 L672.5,1054.61289 C672.5,1054.74254 672.469815,1054.87041 672.411835,1054.98637 L666.247041,1067.31595 C666.040777,1067.72848 665.539146,1067.89569 665.126617,1067.68943 C664.964999,1067.60862 664.83395,1067.47757 664.753142,1067.31595 L658.588348,1054.98637 C658.382084,1054.57384 658.549294,1054.07221 658.961823,1053.86594 C659.077784,1053.80796 659.205651,1053.77778 659.335298,1053.77778 L664.5,1053.777 L664.5,986 L666.5,986 Z" fill="#303030" fill-rule="nonzero"></path>
+                <rect id="Rectangle-Copy-55" stroke="#303030" stroke-width="2" fill="#FFFFFF" x="1006" y="668" width="198" height="118" rx="20"></rect>
+                <text id="CHIEF-ID-OFFICER" font-family="Poppins-SemiBold, Poppins" font-size="16" font-weight="500" fill="#303030">
+                    <tspan x="1072.536" y="721">CHIEF ID </tspan>
+                    <tspan x="1072.488" y="744">OFFICER</tspan>
+                </text>
+                <path id="Line-Copy-19" d="M1106.5,574 L1106.5,653.777 L1111.66488,653.777778 C1112.09063,653.777778 1112.44196,654.096362 1112.49349,654.508138 L1112.5,654.612893 C1112.5,654.742541 1112.46981,654.870408 1112.41183,654.986368 L1106.24704,667.315954 C1106.04078,667.728483 1105.53915,667.895694 1105.12662,667.689429 C1104.965,667.608621 1104.83395,667.477572 1104.75314,667.315954 L1098.58835,654.986368 C1098.38208,654.573839 1098.54929,654.072208 1098.96182,653.865943 C1099.07778,653.807963 1099.20565,653.777778 1099.3353,653.777778 L1104.5,653.777 L1104.5,574 L1106.5,574 Z" fill="#303030" fill-rule="nonzero"></path>
+                <rect id="Rectangle-Copy-54" stroke="#303030" stroke-width="2" fill="#FFFFFF" x="1006" y="868" width="198" height="118" rx="20"></rect>
+                <text id="ASSISTANT-CHIEF-ID-O" font-family="Poppins-SemiBold, Poppins" font-size="16" font-weight="500" fill="#303030">
+                    <tspan x="1037.088" y="921">ASSISTANT CHIEF</tspan>
+                    <tspan x="1062.624" y="944">ID OFFICER</tspan>
+                </text>
+                <path id="Line-Copy-18" d="M1106.5,786 L1106.5,853.777 L1111.66488,853.777778 C1112.09063,853.777778 1112.44196,854.096362 1112.49349,854.508138 L1112.5,854.612893 C1112.5,854.742541 1112.46981,854.870408 1112.41183,854.986368 L1106.24704,867.315954 C1106.04078,867.728483 1105.53915,867.895694 1105.12662,867.689429 C1104.965,867.608621 1104.83395,867.477572 1104.75314,867.315954 L1098.58835,854.986368 C1098.38208,854.573839 1098.54929,854.072208 1098.96182,853.865943 C1099.07778,853.807963 1099.20565,853.777778 1099.3353,853.777778 L1104.5,853.777 L1104.5,786 L1106.5,786 Z" fill="#303030" fill-rule="nonzero"></path>
+                <rect id="Rectangle-Copy-53" stroke="#303030" stroke-width="2" fill="#FFFFFF" x="1006" y="1068" width="198" height="118" rx="20"></rect>
+                <text id="COMPUTER-ANALYST-II-Copy-2" font-family="Poppins-SemiBold, Poppins" font-size="16" font-weight="500" fill="#303030">
+                    <tspan x="1023.456" y="1121">COMPUTER ANALYST</tspan>
+                    <tspan x="1100.552" y="1144">II</tspan>
+                </text>
+                <path id="Line-Copy-17" d="M1106.5,986 L1106.5,1053.777 L1111.66488,1053.77778 C1112.09063,1053.77778 1112.44196,1054.09636 1112.49349,1054.50814 L1112.5,1054.61289 C1112.5,1054.74254 1112.46981,1054.87041 1112.41183,1054.98637 L1106.24704,1067.31595 C1106.04078,1067.72848 1105.53915,1067.89569 1105.12662,1067.68943 C1104.965,1067.60862 1104.83395,1067.47757 1104.75314,1067.31595 L1098.58835,1054.98637 C1098.38208,1054.57384 1098.54929,1054.07221 1098.96182,1053.86594 C1099.07778,1053.80796 1099.20565,1053.77778 1099.3353,1053.77778 L1104.5,1053.777 L1104.5,986 L1106.5,986 Z" fill="#303030" fill-rule="nonzero"></path>
+                <path id="Line-Copy-12" d="M101.5,986 L101.5,1053.777 L106.664885,1053.77778 C107.090628,1053.77778 107.441961,1054.09636 107.493493,1054.50814 L107.5,1054.61289 C107.5,1054.74254 107.469815,1054.87041 107.411835,1054.98637 L101.247041,1067.31595 C101.040777,1067.72848 100.539146,1067.89569 100.126617,1067.68943 C99.9649988,1067.60862 99.8339504,1067.47757 99.7531416,1067.31595 L93.5883484,1054.98637 C93.3820839,1054.57384 93.5492943,1054.07221 93.9618234,1053.86594 C94.0777837,1053.80796 94.2056507,1053.77778 94.3352983,1053.77778 L99.5,1053.777 L99.5,986 L101.5,986 Z" fill="#303030" fill-rule="nonzero"></path>
+                <line x1="225" y1="575" x2="225" y2="615" id="Line-Copy-6" stroke="#303030" stroke-width="2" stroke-linecap="square"></line>
+                <path id="Line-Copy-5" d="M1106.5,374 L1106.5,441 L1112.5,441 L1105.5,455 L1098.5,441 L1104.5,441 L1104.5,374 L1106.5,374 Z" fill="#303030" fill-rule="nonzero"></path>
+                <rect id="Rectangle" fill="#303030" x="225" y="373" width="881" height="2"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

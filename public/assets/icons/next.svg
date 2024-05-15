@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="90px" viewBox="0 0 90 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 19 Copy</title>
+    <defs>
+        <circle id="path-1" cx="35" cy="35" r="35"></circle>
+        <filter x="-22.9%" y="-20.0%" width="145.7%" height="145.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Website-Prototype" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Index_search-open" transform="translate(-1740, -3099)">
+            <g id="Group-35" transform="translate(100, 2780)">
+                <g id="Group-19-Copy" transform="translate(1685, 362) scale(-1, 1) translate(-1685, -362)translate(1650, 327)">
+                    <g id="Oval">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <path d="M45.7283966,36.7782492 L21.2756259,36.7782492 C20.91366,36.7782492 20.6105713,36.6569109 20.3663598,36.4142343 C20.1221199,36.1715578 20,35.8703741 20,35.5106833 C20,35.1509924 20.1221199,34.8498087 20.3663598,34.6071322 C20.6105713,34.3644556 20.91366,34.2431174 21.2756259,34.2431174 L45.7283966,34.2431174 L42.6537554,31.1617732 C42.400813,30.9104488 42.2759859,30.6163074 42.2792742,30.279349 C42.2825341,29.9424187 42.4160922,29.6428688 42.6799483,29.3806993 C42.9437761,29.1358256 43.2468648,29.0090647 43.5892144,29.0004168 C43.9315357,28.9917408 44.2258935,29.1185016 44.4722877,29.3806993 L49.5388187,34.4413713 C49.8462729,34.746893 50,35.1033303 50,35.5106833 C50,35.9180362 49.8462729,36.2744735 49.5388187,36.5799952 L44.4461374,41.6406672 C44.2106569,41.8746959 43.9190204,41.9944144 43.5712281,41.9998229 C43.2234358,42.0052595 42.9176116,41.885541 42.6537554,41.6406672 C42.3899277,41.3784977 42.2580138,41.077314 42.2580138,40.7371162 C42.2580138,40.3969465 42.3899277,40.0957628 42.6537554,39.8335651 L45.7283966,36.7782492 Z" id="Path" fill="#C42C23" fill-rule="nonzero" transform="translate(35, 35.5) scale(-1, 1) translate(-35, -35.5)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
