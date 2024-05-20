@@ -6,6 +6,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import NavigationBar from './components/NavigationBar';
 import '../styles/main.scss';
 
+import Footer from './components/Footer';
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -25,6 +27,7 @@ export default function RootLayout({
          <NavigationBar/>
         </header>
         {children}
+        <Footer/>
       </body>
     </html>
   );

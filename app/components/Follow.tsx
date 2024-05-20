@@ -29,7 +29,7 @@ const Follow = (props: Props) => {
                     </Col>
                     <Col md={3} className='ps-0'>
                         <Card className="text-white">
-                            <CardImg alt='' variant="top" className="card-img" src="/assets/images/gallery/NITDA _farm_visit.jpeg"/>
+                            <CardImg alt='' variant="top" className="card-img" src="/assets/images/news-5.jpeg"/>
                             <CardImgOverlay className="">
                                 <CardBody>
                                     <CardText>
@@ -43,7 +43,7 @@ const Follow = (props: Props) => {
                     </Col>
                     <Col md={3} className='ps-0'>
                         <Card className="text-white">
-                            <CardImg alt='' variant="top" className="card-img" src="/assets/images/gallery/NITDA _farm_visit.jpeg" />
+                            <CardImg alt='' variant="top" className="card-img" src="/assets/images/news-6.jpeg" />
                             <CardImgOverlay className="">
                                 <CardBody>
                                     <CardText>
@@ -57,7 +57,7 @@ const Follow = (props: Props) => {
                     </Col>
                     <Col md={3} className='ps-0'>
                         <Card className="text-white">
-                            <CardImg alt='' variant="top" className="card-img" src="/assets/images/gallery/NITDA _farm_visit.jpeg" />
+                            <CardImg alt='' variant="top" className="card-img" src="/assets/images/gallery/inauguration_reception.jpg" />
                             <CardImgOverlay className="">
                                 <CardBody>
                                     <CardText>

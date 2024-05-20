@@ -1,20 +1,41 @@
-import Col from "react-bootstrap/Col"
+/* import Col from "react-bootstrap/Col"
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Button from "./Button"
-import Image from "next/image"
+import Image from "next/image" */
+import SideBySideWButton from '../components/reusable/SideBySideWButton';
 
 type Props = {}
 const Ministry = (props: Props) => {
   return (
     <>
         <div id="ministry-section" className="container-fluid">
-            <Container className='cover pt-5'>
+            <SideBySideWButton 
+                title='About the Ministry'
+                text={
+                    [
+                        'The Federal Ministry of Communications, Innovation, and Digital Economy was created in 2011. Formerly known as The Federal Ministry of Communications Technology, it was created to foster a knowledge-based economy and information society in Nigeria.'
+                        ,'The Ministry was created to facilitate ICT as a key tool in the transformation agenda for Nigeria in the areas of job creation, economic growth, and transparency of governance.'
+                    ]}
+                btn={{
+                    text: 'Read More',
+                    iconSrc: '/assets/icons/right-arrow.svg',
+                    iconAxis: 'X',
+                }}
+                img={{
+                    imgSrc:'/assets/icons/emblem-opq.svg', 
+                    width: 386, 
+                    height: 431
+                }}
+                className=""
+            />
+
+            {/* <Container className='pb-5 pt-5'>
                 <Row>
                     <Col>
-                        <h1 className='fs-1 fw-bold mb-3'>
+                        <h2 className='fs-1 fw-medium mb-3'>
                             About the Ministry  
-                        </h1>
+                        </h2>
                         <p>
                             The Federal Ministry of Communications, Innovation, and Digital Economy was created in 2011. Formerly known as The Federal Ministry of Communications Technology, it was created to foster a knowledge-based economy and information society in Nigeria.
                             <br />
@@ -34,7 +55,7 @@ const Ministry = (props: Props) => {
                         <Image src='/assets/icons/emblem-opq.svg' alt='' width={386} height={431}/>
                     </Col>
                 </Row>
-            </Container>
+            </Container> */}
         </div>
     </>
   )
