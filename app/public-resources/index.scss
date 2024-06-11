@@ -1,0 +1,13 @@
+.data-box {
+    & &__header {
+        font-size: 20px;
+    }
+    .icon-box{
+        border-color: #EEEEEE;
+        &-wrapper{
+            span:hover{
+                color:#21903C;
+            }
+        }
+    }
+}

@@ -2,15 +2,22 @@ import Link from "next/link"
 import React from "react"
 
 type margin = 0|1|2|3|4|5
-type Props = {
+type ButtonProps = {
     children: React.ReactNode,
     mx: margin,
     className?: string,
+    variant?: keyof typeof variants,
+    href?: string
 }
-
-const Button = ({children, mx, className }: Props) => {
+const variants = {
+    primary: 'btn-lg bg-green text-white',
+    'outline': 'border-green text-green',
+    'outline-black': 'border-black text-black btn-outline',
+}
+const Button = ({ children, mx, className, variant, href }: ButtonProps) => {
+  
   return (<>
-        <Link className={`btn text-nowrap btn-lg bg-green rounded-5 text-white mx-${mx} ${className}`} href="">
+        <Link className={`btn text-nowrap rounded-5 px-4 mx-${mx} ${variant?variants[variant]:''} ${className?className:''}`} href={href?href:''}>
             <span className="fs-6">{children}</span>
         </Link>
     </>

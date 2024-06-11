@@ -15,7 +15,7 @@ type Props = {}
 const NavigationBar = (props: Props) => {
   return (
     <>
-        <Navbar sticky="top" bg="transparent" expand="lg">
+        <Navbar sticky="top" bg="transparent" expand="xl" className='border-bottom-green'>
             <Container>
             <NavbarBrand href="#home">
                 <Image src="/assets/images/logo.png" alt="INITS" width={200} height={45} />
@@ -23,16 +23,17 @@ const NavigationBar = (props: Props) => {
             <NavbarToggle aria-controls="basic-navbar-nav" />
             <NavbarCollapse id="basic-navbar-nav">
                 <Nav className="mx-auto nav-menu">
-                    <Link href="#home" className='nav-link'>Home</Link>
-                    <Link href="#link" className='nav-link'>About Us</Link>
-                    <Link href="#link" className='nav-link'>Resources</Link>
+                    <Link href="/" className='nav-link'>Home</Link>
+                    <Link href="/about" className='nav-link'>About Us</Link>
+                    <Link href="/initiatives" className='nav-link'>Initiatives</Link>
+                    <Link href="/public-resources" className='nav-link'>Resources</Link>
 
                     <NavDropdown title="Media Center" id="basic-nav-dropdown">
-                        <Link href="#link" className='dropdown-item'>News</Link>
+                        <Link href="/news" className='dropdown-item'>News</Link>
                         <DropdownDivider />
-                        <Link href="#action/3.2" className='dropdown-item'>Events</Link>
+                        <Link href="/events" className='dropdown-item'>Events</Link>
                         <DropdownDivider />
-                        <Link href="#action/3.3" className='dropdown-item'>Articles</Link>
+                        <Link href="/articles" className='dropdown-item'>Articles</Link>
                     </NavDropdown>
                 </Nav>
                 <Link className='btn btn-lg bg-green rounded-5  text-white mx-3' href=""><span className="fs-6">Get in touch</span></Link>

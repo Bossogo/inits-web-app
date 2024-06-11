@@ -1,15 +1,46 @@
-.form_bottom {
-  margin-top: 18px
-}
-
-.link {
-  color: $red !important;
-}
 
 .title {
-
+  font-size: 40px;
+  font-weight: 600;
+  color: #303030;
+  &__big {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1;
+    &-primary{
+      color: #333333;
+    }
+    &-white{
+      color: #F4FFF6;
+    }
+  }
+  
   @include responsive(small) {
     font-size: 1.6rem;
+  }
+}
+
+.text {
+  font-size: 16px;
+  &-green{
+    color: $green !important;
+  }
+  &__big {
+    font-size: 18px;
+  }
+  @include responsive(small) {
+    font-size: 1rem;
+  }
+}
+
+.border{
+  &-green{
+    border: 1px solid $green !important;
+  }
+  &-bottom{
+    &-green{
+      border-bottom: 1px solid $green !important;
+    }
   }
 }
 
@@ -34,18 +65,31 @@ main {
   &-darken{
     background-image: linear-gradient(115deg, #00000049 0%, #22222251 100%);
   }
+  &__light-green{
+    background-color: #F4FFF6;
+  }
 }
 .circle{
   border-radius: 50% !important;
 }
-//
+
+.navbar-collapse.show, .collapsing.show{
+  display: flex;
+  flex-direction: column;
+}
+
 .hero{
   height: 100vh;
-  
+  max-height: 900px;
+  .col{
+    h2{
+      line-height: 1.2;
+    }
+  }
   &-wrapper{
     position: relative;
     height: 100%;
-  
+    
     &::before{
       content: "";
       position: absolute;
@@ -56,21 +100,28 @@ main {
       background-image: url("/assets/images/hero-bg-2.png");
       background-position: 10% 10%;
       background-size: 150%;
+      background-color: #185721;
       z-index: -1;
+    }
+    div.row{
+      padding: 0 15px;
+      height: 100%;
+      > div{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        height: 100%;
+      }
     }
   }
 
-  div.row{
-    padding: 0 15px;
-    height: 100%;
-    > div{
-      flex-direction: column;
-      justify-content: center;
-      text-align: center;
-      align-items: center;
-      display: flex;
-      height: 100%;
-    }
+  
+}
+@media (max-width: 991px) {
+  .hero-wrapper::before{
+    background-image: url("/assets/images/hero-bg.png");
   }
 }
 
@@ -80,6 +131,27 @@ main {
 
 .section{
   padding: 12px;
+}
+
+
+@media (max-width: 1200px) {
+  #welcome-section{
+    .row{
+      .col{
+        .img-cover{
+          width: 96%;
+        }
+      }
+    }
+  }
+}
+
+#welcome-section{
+  .img-cover{
+    aspect-ratio: auto 665 / 742;
+    height: auto;
+    width: 75%;
+  }
 }
 
 #blueprint{
@@ -122,24 +194,6 @@ main {
   }
 }
 
-.dual-content{
-  position: relative;
-  background-color: #F4FFF6;
-  .row{
-    .col{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-    .col:first-child{
-      align-items: start;
-    }
-    .col:nth-child(2){
-      align-items: center;
-    }
-  }
-}
-
 #news-section{
   position: relative;
   .slider-wrapper{
@@ -154,9 +208,31 @@ main {
     }
     .slick-prev{
       left: 0;
+      &::before{
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 20px;
+        height: 15px;
+        background-image: url("/assets/icons/left-arrow-drk.svg");
+        background-size: cover;
+      }
     }
     .slick-next{
       right: 0;
+      &::before{
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 15px;
+        height: 15px;
+        background-image: url("/assets/icons/right-arrow-grn.svg");
+        background-size: cover;
+      }
     }
     .slick-slide{
       padding: 0 5px;
@@ -193,8 +269,14 @@ main {
   background-image: linear-gradient(114deg, #20822F 0%, #B3952E 100%);
   .container{
     background-color: $white;
-    .row{
-      width: 90%;
+    .slider-wrapper{
+      .slick-next::before,
+      .slick-prev::before{
+        color: #21903c ;
+      }
+      .slick-slide{
+        padding: 0 5px;
+      }
       .col{
         h4{
           color:red;
