@@ -33,7 +33,7 @@ export default async function DataBox ({title, data, className}: DataBoxProps) {
         
             {reports.map((report: ContentType) => {
                 return(
-                    <IconBox content={report} />
+                    <IconBox key={report.name} content={report} />
                 )
             })}
     </div>
