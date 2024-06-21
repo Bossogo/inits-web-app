@@ -87,7 +87,7 @@ const Landing = (props: Props) => {
               Strategic Blueprints
           </span>
           <p className="text-white">Our vision to leverage the transformative power of digital technology and innovation to diversify and deepen Nigeria’s economy.</p>
-          <Button mx={0} className="border-white mt-3">
+          <Button mx={0} variant='primary' className="border-white mt-3">
               Download Here
               <Image 
                   src='/assets/icons/wht-dwnload.svg' 
@@ -133,7 +133,7 @@ const Landing = (props: Props) => {
           
           <NewsSlider/>
 
-          <Button mx={0} className="border-white mt-3">
+          <Button mx={0} variant='primary' className="border-white mt-3">
               Read More
               <Image
                   src='/assets/icons/right-arrow.svg' 

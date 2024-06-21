@@ -30,7 +30,7 @@ const IconVariants: Direction = {
 
 const CustomButton: FC<btnType> = ({text, className, iconVariant}) => {
     return text?
-    <Button mx={0} className={`mt-3 ${className ? className : ''}`}>
+    <Button mx={0} variant='primary' className={`mt-3 ${className ? className : ''}`}>
         {text}
         {iconVariant && <Image src={IconVariants[iconVariant]?.src} alt='' width={15} height={15} className={`btn-icon ms-2 ${IconVariants[iconVariant]?.axis ? 'animate-floating' + IconVariants[iconVariant]?.axis.toUpperCase() : ''}`} />}
     </Button>

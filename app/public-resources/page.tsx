@@ -5,11 +5,12 @@ import Button from '../components/Button'
 import ContainerLayout from '../components/layouts/ContainerLayout'
 
 import DataBox from '../components/public-resources/DataBox'
+import Container from 'react-bootstrap/Container'
 
 type Props = {}
 
 const Initiatives = async (props: Props) => {
-    const data = await fetch('')
+    //const data = await fetch('')
   return (<>
     <ColouredContainer>
         <DualSection 
@@ -35,13 +36,17 @@ const Initiatives = async (props: Props) => {
         </DualSection>
     </ColouredContainer>
 
-    <ContainerLayout>
-        <DataBox title="Reports" 
-        content={{name:"The Nigeria E-Government Master Plan",
-        link:"https://fmcide.gov.ng/wp-content/uploads/2023/11/NgeGovMP.pdf"}}
-        />
+    <div className='px-5'>
+        <DataBox title="Reports" data="reports"/>
         
-    </ContainerLayout>
+        <DataBox title="Policies" data="policies" className="bg-grey px-4 py-4"/>
+
+        <DataBox title="Forms" data="forms" className="px-4 py-4"/>
+       
+        <DataBox title="Whitepapers" data="whitepapers" className="bg-grey px-4 py-4"/>
+
+        <DataBox title="Media Kits" data="media-kits" className="px-4 py-4"/>
+    </div>
   </>
     
   )

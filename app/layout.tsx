@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <header className="sticky-top bg-opacity-50 bg-white">
+        <header className="sticky-top bg-opacity-75 bg-white">
          <NavigationBar/>
         </header>
         {children}

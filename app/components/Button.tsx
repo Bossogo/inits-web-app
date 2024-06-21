@@ -11,7 +11,7 @@ type ButtonProps = {
 }
 const variants = {
     primary: 'btn-lg bg-green text-white',
-    'outline': 'border-green text-green',
+    outline: 'border-green text-green',
     'outline-black': 'border-black text-black btn-outline',
 }
 const Button = ({ children, mx, className, variant, href }: ButtonProps) => {
