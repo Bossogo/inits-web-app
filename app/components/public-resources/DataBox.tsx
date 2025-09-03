@@ -16,7 +16,7 @@ type IconBoxProps = {
 
 
 async function getData(data: string) {
-    const res = await fetch(`http://localhost:4000/${data}`);
+    const res = await fetch(`http://localhost:3001/${data}`);
     if (!res.ok) {
       throw new Error('Failed to fetch data')
     }
