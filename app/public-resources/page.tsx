@@ -2,10 +2,7 @@ import DualSection from '../components/DualSection'
 import "./index.scss"
 import ColouredContainer from '../components/layouts/ColouredContainer'
 import Button from '../components/Button'
-import ContainerLayout from '../components/layouts/ContainerLayout'
-
 import DataBox from '../components/public-resources/DataBox'
-import Container from 'react-bootstrap/Container'
 
 type Props = {}
 
@@ -28,11 +25,11 @@ const Initiatives = async (props: Props) => {
             className="col-10 ms-5"
         >
             
-            <Button mx={0} variant='outline-black' href="/#reports" className='py-2'>Reports</Button>
-            <Button mx={2} variant='outline-black' href="/#policies" className='py-2'>Policies</Button>
-            <Button mx={2} variant='outline-black' href="/#forms" className='py-2'>Forms</Button>
-            <Button mx={2} variant='outline-black' href="/#links" className='py-2'>Whitepapers</Button>
-            <Button mx={2} variant='outline-black' href="/#media-kits" className='py-2'>Media Kits</Button>
+            <Button mx={0} variant='outline-black' href="/public-resources#reports" className='py-2'>Reports</Button>
+            <Button mx={2} variant='outline-black' href="/public-resources#policies" className='py-2'>Policies</Button>
+            <Button mx={2} variant='outline-black' href="/public-resources#forms" className='py-2'>Forms</Button>
+            <Button mx={2} variant='outline-black' href="/public-resources#whitepapers" className='py-2'>Whitepapers</Button>
+            <Button mx={2} variant='outline-black' href="/public-resources#media-kits" className='py-2'>Media Kits</Button>
         </DualSection>
     </ColouredContainer>
 
