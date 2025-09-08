@@ -1,41 +1,45 @@
-import Link from 'next/link'
-import Image from 'next/image'
-import IconBox from './IconBox'
-
+"use client";
+import { useEffect, useState } from "react";
+import IconBox from './IconBox';
+import { ContentType } from '../../types/public-resourcesTypes';
 
 type DataBoxProps = {
     title: string,
     data: string,
     className?: string
-}
-type IconBoxProps = {
-    title: string,
-    content: string,
-}
+};
 
+export default function DataBox({ title, data, className }: DataBoxProps) {
+    const [reports, setReports] = useState<ContentType[]>([]);
+    const [loading, setLoading] = useState(true);
+    const [error, setError] = useState<string | null>(null);
 
+    useEffect(() => {
+        setLoading(true);
+        setError(null);
+        fetch(`/api/resources?data=${data}`)
+            .then((res) => {
+                if (!res.ok) throw new Error('Failed to fetch data');
+                return res.json();
+            })
+            .then((data) => {
+                setReports(data);
+                setLoading(false);
+            })
+            .catch((err) => {
+                setError(err.message);
+                setLoading(false);
+            });
+    }, [data]);
 
-async function getData(data: string) {
-    const res = await fetch(`http://localhost:3001/${data}`);
-    if (!res.ok) {
-      throw new Error('Failed to fetch data')
-    }
-   
-    return res.json()
-  }
-    
-export default async function DataBox ({title, data, className}: DataBoxProps) {
-    const reports = await getData(data);
-    console.log(reports)
-  return (<>
-    <div className={`data-box mb-5 d-flex flex-column ${className}`}>
+    return (
+        <div className={`data-box mb-5 d-flex flex-column ${className}`}>
             <h2 className="data-box__header text-green fw-semibold mb-4">{title}</h2>
-        
-            {reports.map((report: ContentType) => {
-                return(
-                    <IconBox key={report.name} content={report} />
-                )
-            })}
-    </div>
-</>)
+            {loading && <div>Loading...</div>}
+            {error && <div className="text-danger">{error}</div>}
+            {!loading && !error && reports.map((report: ContentType) => (
+                <IconBox key={report.name} content={report} />
+            ))}
+        </div>
+    );
 }
